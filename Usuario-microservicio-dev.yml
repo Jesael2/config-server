@@ -5,7 +5,14 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQLDialect
     show-sql: true
 
-app:
-  testProp: "Prueba 1 en DEV"
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/usuario-dev-db
+    username: root
+    password:
+
+server:
+  port: 0
