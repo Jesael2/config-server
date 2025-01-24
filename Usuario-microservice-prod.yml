@@ -8,4 +8,4 @@ spring:
     show-sql: false
 
 app:
-  testProp: "Prueba 1 en Prod"
+  testProp: "Prueba 2 en Prod"
