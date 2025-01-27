@@ -3,4 +3,4 @@ spring:
     mongodb:
       uri: "mongodb://localhost:27017/personaldb"
 app:
-  testProp: "Propiedad de prueba 1 vez"
+  testProp: "Propiedad de prueba 2 vez"
