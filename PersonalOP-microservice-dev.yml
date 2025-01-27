@@ -1,6 +1,6 @@
 spring:
   data:
     mongodb:
-      uri: "mongod://localhost:27017/personaldb"
+      uri: "mongodb://localhost:27017/personaldb"
 app:
   testProp: "Propiedad de prueba 1 vez"
